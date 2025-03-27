@@ -17,7 +17,7 @@ import com.akash.organization.model.Organization;
 import com.akash.organization.service.OrganizationService;
 
 @RestController
-@RequestMapping("/api/organizations")
+@RequestMapping("/api/v1/organizations")
 public class OrganizationController {
 
     private final OrganizationService organizationService;

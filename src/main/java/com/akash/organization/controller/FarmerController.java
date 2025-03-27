@@ -21,7 +21,7 @@ import com.akash.organization.service.FarmerService;
 import jakarta.validation.Valid;
 
 @RestController
-@RequestMapping("/api/farmers")
+@RequestMapping("/api/v1/farmers")
 public class FarmerController {
 
     private final FarmerService farmerService;
@@ -31,7 +31,6 @@ public class FarmerController {
     public FarmerController(FarmerService farmerService, FarmerRepository farmerRepository) {
         this.farmerService = farmerService;
         this.farmerRepository = farmerRepository;
-
     }
 
     @GetMapping

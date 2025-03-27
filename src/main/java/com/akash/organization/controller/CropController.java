@@ -18,7 +18,7 @@ import com.akash.organization.dto.CropsDTO;
 import com.akash.organization.service.CropsService;
 
 @RestController
-@RequestMapping("/api/crops")
+@RequestMapping("/api/v1/crops")
 public class CropController {
 
     @Autowired
